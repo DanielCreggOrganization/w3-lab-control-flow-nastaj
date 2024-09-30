@@ -16,6 +16,9 @@ This lab introduces students to control flow structures in Java, including condi
 ### **Description:**
 Conditional statements allow you to execute specific blocks of code based on a condition.
 
+### **What is happening in the example?**
+In the example below, the program checks if the value of the variable `number` is positive, negative, or zero. If `number > 0`, it prints "The number is positive." If `number < 0`, it prints "The number is negative." If neither condition is true, it prints "The number is zero."
+
 ### **Example:**
 ```java
 public class ControlFlowExample {
@@ -33,7 +36,7 @@ public class ControlFlowExample {
 }
 ```
 
-### **Mermaid Diagram:**
+### **Diagram:**
 
 ```mermaid
 flowchart TD
@@ -60,6 +63,9 @@ Use `if`, `else if`, and `else` statements.
 
 ### **Description:**
 The `switch` statement allows you to choose from multiple options based on the value of a variable.
+
+### **What is happening in the example?**
+In the example below, the `switch` statement checks the value of the variable `day`. Depending on its value (1-5), it prints the corresponding weekday name. If `day` is not between 1 and 5, it defaults to printing "Weekend".
 
 ### **Example:**
 ```java
@@ -91,7 +97,7 @@ public class SwitchExample {
 }
 ```
 
-### **Mermaid Diagram:**
+### **Diagram:**
 
 ```mermaid
 flowchart TD
@@ -114,6 +120,9 @@ Write a program that uses a `switch` statement to print the name of a month base
 ### **Description:**
 `for` loops are used to iterate over a block of code a fixed number of times.
 
+### **What is happening in the example?**
+The example below initializes `i` to 1. As long as `i` is less than or equal to 5, the loop prints the value of `i` and then increments `i` by 1. This process repeats until the condition (`i <= 5`) is no longer true.
+
 ### **Example:**
 ```java
 public class ForLoopExample {
@@ -125,7 +134,7 @@ public class ForLoopExample {
 }
 ```
 
-### **Mermaid Diagram:**
+### **Diagram:**
 
 ```mermaid
 flowchart TD
@@ -147,6 +156,9 @@ Create a `for` loop that prints the first 10 even numbers (starting from 2). Hin
 ### **Description:**
 The `for-each` loop is used to iterate over elements in a collection or array.
 
+### **What is happening in the example?**
+The example below initializes an array `fruits` with three values: "Apple", "Banana", and "Cherry". The `for-each` loop iterates through each element of the array and prints the current fruit.
+
 ### **Example:**
 ```java
 public class ForEachExample {
@@ -159,7 +171,7 @@ public class ForEachExample {
 }
 ```
 
-### **Mermaid Diagram:**
+### **Diagram:**
 
 ```mermaid
 flowchart TD
@@ -178,6 +190,9 @@ Create a `for-each` loop that iterates over an array of integers and calculates 
 ### **Description:**
 The `continue` statement skips the current iteration and moves to the next iteration of the loop.
 
+### **What is happening in the example?**
+In the example below, the `for` loop prints numbers from 1 to 5. However, when `i` is equal to 3, the `continue` statement skips the print statement and moves to the next iteration.
+
 ### **Example:**
 ```java
 public class ContinueExample {
@@ -192,7 +207,7 @@ public class ContinueExample {
 }
 ```
 
-### **Mermaid Diagram:**
+### **Diagram:**
 
 ```mermaid
 flowchart TD
@@ -217,6 +232,9 @@ Write a `for` loop that prints numbers from 1 to 10, but skips printing multiple
 ### **Description:**
 The `break` statement exits the current loop immediately.
 
+### **What is happening in the example?**
+In the example below, the loop prints numbers from 1 to 5. However, when `i` equals 4, the `break` statement terminates the loop, so numbers after 3 are not printed.
+
 ### **Example:**
 ```java
 public class BreakExample {
@@ -231,7 +249,7 @@ public class BreakExample {
 }
 ```
 
-### **Mermaid Diagram:**
+### **Diagram:**
 
 ```mermaid
 flowchart TD
