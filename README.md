@@ -7,7 +7,7 @@
 ### **Prerequisites:** Basic understanding of Java syntax (variables, data types, and methods)
 
 ## **Lab Overview**
-This lab introduces students to control flow structures in Java, including conditional statements (`if`, `else`, `switch`) and loops (`for`, `while`, `do-while`, `for-each`). Each topic will include an explanation, a coding example, a visual diagram, and a DIY question for practice.
+This lab introduces students to control flow structures in Java, including conditional statements (`if`, `else`, `switch`) and loops (`for`, `while`, `do-while`, `for-each`). Each topic will include an explanation, a coding example, a visual diagram, and a DIY question for practice. To start create a package called `ie.atu.controlflow`. After you complete each section commit and sync your code.  
 
 ---
 
