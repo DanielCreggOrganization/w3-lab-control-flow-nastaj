@@ -261,7 +261,7 @@ flowchart TD
     Check -- No --> End([End])
 ```
 
-### **DIY Question 5:**
+### **DIY Question 6:**
 Write a `for` loop that prints numbers from 1 to 10, but skips printing multiples of 3 using a `continue` statement.
 
 ---
@@ -303,7 +303,7 @@ flowchart TD
     Check -- No --> End([End])
 ```
 
-### **DIY Question 6:**
+### **DIY Question 7:**
 Create a `while` loop that keeps adding numbers starting from 1, but exits when the sum becomes greater than 20.
 
 ---
@@ -337,7 +337,7 @@ flowchart TD
     Output --> End([End])
 ```
 
-### **DIY Question 7:**
+### **DIY Question 8:**
 Write a program that uses a `return` statement to check if a number is prime. If the number is not prime, return immediately from the method with a message.
 
 ---
