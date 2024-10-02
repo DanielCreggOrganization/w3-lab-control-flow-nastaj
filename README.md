@@ -215,7 +215,7 @@ flowchart TD
     Init --> Check{i <= 5?}
     Check -- Yes --> SkipCheck{i == 3?}
     SkipCheck -- Yes --> Continue[Continue to next iteration]
-    SkipCheck -- No --> Print[Print "Iteration: i"]
+    SkipCheck -- No --> Print[Print: i]
     Continue --> Increment[i++]
     Print --> Increment[i++]
     Increment --> Check
@@ -257,7 +257,7 @@ flowchart TD
     Init --> Check{i <= 5?}
     Check -- Yes --> BreakCheck{i == 4?}
     BreakCheck -- Yes --> Exit[Break out of loop]
-    BreakCheck -- No --> Print[Print "Iteration: i"]
+    BreakCheck -- No --> Print[Print Iteration: i]
     Print --> Increment[i++]
     Increment --> Check
     Exit --> End([End])
@@ -292,7 +292,7 @@ public class ReturnExample {
 
 ```mermaid
 flowchart TD
-    Start([Start]) --> Call[Call addNumbers(5, 3)]
+    Start([Start]) --> Call[Call addNumbers 5, 3]
     Call --> Return[Return the sum]
     Return --> Output[Output the result]
     Output --> End([End])
