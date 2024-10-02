@@ -185,7 +185,46 @@ Create a `for-each` loop that iterates over an array of integers and calculates 
 
 ---
 
-## **5. Continue Statement**
+## **5. Loops: `do-while` Loop**
+
+### **Description:**
+The `do-while` loop is similar to the `while` loop, but it guarantees that the block of code will be executed at least once. The loop's condition is evaluated **after** the code is executed.
+
+### **What is happening in the example?**
+The example below initializes `i` to 1 and prints `i`. After printing, it increments `i` by 1. Then, the loop checks whether `i <= 5`. As long as the condition is true, it repeats the process. This ensures the loop runs at least once, even if `i` starts out greater than 5.
+
+### **Example:**
+```java
+public class DoWhileExample {
+    public static void main(String[] args) {
+        int i = 1;
+
+        do {
+            System.out.println("Iteration: " + i);
+            i++;
+        } while (i <= 5);
+    }
+}
+```
+
+### **Diagram:**
+
+```mermaid
+flowchart TD
+    Start([Start]) --> Init[i = 1]
+    Init --> Print[Print i]
+    Print --> Increment[i++]
+    Increment --> Check{i <= 5?}
+    Check -- Yes --> Print
+    Check -- No --> End([End])
+```
+
+### **DIY Question 5:**
+Create a `do-while` loop that prints numbers from 10 down to 1.
+
+---
+
+## **6. Continue Statement**
 
 ### **Description:**
 The `continue` statement skips the current iteration and moves to the next iteration of the loop.
@@ -227,7 +266,7 @@ Write a `for` loop that prints numbers from 1 to 10, but skips printing multiple
 
 ---
 
-## **6. Break Statement**
+## **7. Break Statement**
 
 ### **Description:**
 The `break` statement exits the current loop immediately.
@@ -269,7 +308,7 @@ Create a `while` loop that keeps adding numbers starting from 1, but exits when 
 
 ---
 
-## **7. Return Statement**
+## **8. Return Statement**
 
 ### **Description:**
 The `return` statement exits from the method and optionally returns a value.
