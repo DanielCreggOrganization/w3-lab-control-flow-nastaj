@@ -140,7 +140,7 @@ public class ForLoopExample {
 flowchart TD
     Start([Start]) --> Init[i = 1]
     Init --> Check{i <= 5?}
-    Check -- Yes --> Print[Print "Iteration: i"]
+    Check -- Yes --> Print[Print i]
     Print --> Increment[i++]
     Increment --> Check
     Check -- No --> End([End])
